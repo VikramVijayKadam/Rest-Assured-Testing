@@ -1,0 +1,10 @@
+<suite name="Rest-Assured Testcase">
+	<test name="Dryrun_VVK_Test">
+		<classes>
+			<class name="vikram.RestAssuredAPI.VVK001_GET_Request" />
+			<class name="vikram.RestAssuredAPI.VVK002_POST_Request" />
+			<class name="vikram.RestAssuredAPI.VVK003_GET_Request" />
+			<class name="vikram.RestAssuredAPI.VVK004_GET_Request" />
+		</classes>
+	</test>
+</suite>

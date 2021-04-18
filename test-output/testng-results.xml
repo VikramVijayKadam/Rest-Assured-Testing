@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rest-Assured Testcase" duration-ms="5484" started-at="2021-04-18T15:02:03Z" finished-at="2021-04-18T15:02:08Z">
+    <groups>
+    </groups>
+    <test name="Dryrun_VVK_Test" duration-ms="5484" started-at="2021-04-18T15:02:03Z" finished-at="2021-04-18T15:02:08Z">
+      <class name="vikram.RestAssuredAPI.VVK004_GET_Request">
+        <test-method status="PASS" signature="googleMapTest()[pri:0, instance:vikram.RestAssuredAPI.VVK004_GET_Request@475530b9]" name="googleMapTest" duration-ms="323" started-at="2021-04-18T20:32:08Z" finished-at="2021-04-18T20:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleMapTest -->
+      </class> <!-- vikram.RestAssuredAPI.VVK004_GET_Request -->
+      <class name="vikram.RestAssuredAPI.VVK003_GET_Request">
+        <test-method status="PASS" signature="googleMapTest()[pri:0, instance:vikram.RestAssuredAPI.VVK003_GET_Request@2b98378d]" name="googleMapTest" duration-ms="522" started-at="2021-04-18T20:32:07Z" finished-at="2021-04-18T20:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleMapTest -->
+      </class> <!-- vikram.RestAssuredAPI.VVK003_GET_Request -->
+      <class name="vikram.RestAssuredAPI.VVK002_POST_Request">
+        <test-method status="PASS" signature="RegistrationSuccessful()[pri:0, instance:vikram.RestAssuredAPI.VVK002_POST_Request@4b9e13df]" name="RegistrationSuccessful" duration-ms="1724" started-at="2021-04-18T20:32:06Z" finished-at="2021-04-18T20:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationSuccessful -->
+      </class> <!-- vikram.RestAssuredAPI.VVK002_POST_Request -->
+      <class name="vikram.RestAssuredAPI.VVK001_GET_Request">
+        <test-method status="PASS" signature="getweatherDetails()[pri:0, instance:vikram.RestAssuredAPI.VVK001_GET_Request@8bd1b6a]" name="getweatherDetails" duration-ms="2881" started-at="2021-04-18T20:32:03Z" finished-at="2021-04-18T20:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherDetails -->
+      </class> <!-- vikram.RestAssuredAPI.VVK001_GET_Request -->
+    </test> <!-- Dryrun_VVK_Test -->
+  </suite> <!-- Rest-Assured Testcase -->
+</testng-results>
