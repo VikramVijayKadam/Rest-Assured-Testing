@@ -8,7 +8,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class VVK004_GET_Request 
+public class VVK004_GET_Request_Google_Map_API_To_Printing_All_Headers
 {
 		@Test
 		 void googleMapTest()

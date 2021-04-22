@@ -9,7 +9,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class VVK002_POST_Request 
+public class VVK002_POST_Request_Register_Customer_API 
 {
 	
 	@SuppressWarnings("unchecked")
