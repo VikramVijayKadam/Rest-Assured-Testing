@@ -32,7 +32,7 @@ public class VVK002_POST_Request_Register_Customer_API
 	   //Request paylaod sending along with post request
 	  JSONObject requestParams=new JSONObject();
 	  
-	  requestParams.put("userName","vikram5"); // Beforing running the test, change username
+	  requestParams.put("userName","vikram7"); // Beforing running the test, change username
 	  requestParams.put("password","@Vikram007//");
 	  
 	  /* This is the old code

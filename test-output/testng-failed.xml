@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="vikram.RestAssuredAPI.VVK006_GET_Request_Weather_API_To_Extract_Values_of_Each_Node">
+      <class name="dataDrivenTesting.DDT_AddNewEmployeeWithTwoDimensionalArrayUsingDataProvider">
         <methods>
-          <include name="getweatherDetails"/>
+          <include name="postNewEmployees" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- vikram.RestAssuredAPI.VVK006_GET_Request_Weather_API_To_Extract_Values_of_Each_Node -->
+      </class> <!-- dataDrivenTesting.DDT_AddNewEmployeeWithTwoDimensionalArrayUsingDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

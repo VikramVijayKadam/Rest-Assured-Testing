@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rest-Assured Testcase]">
+  <test name="Dryrun_VVK_DataDrivenTesting(failed)">
+    <classes>
+      <class name="dataDrivenTesting.DDT_AddNewEmployeeWithHardCodedData">
+        <methods>
+          <include name="postNewEmployees"/>
+        </methods>
+      </class> <!-- dataDrivenTesting.DDT_AddNewEmployeeWithHardCodedData -->
+    </classes>
+  </test> <!-- Dryrun_VVK_DataDrivenTesting(failed) -->
+</suite> <!-- Failed suite [Rest-Assured Testcase] -->

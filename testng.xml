@@ -3,12 +3,18 @@
 		<classes>
 			<class name="vikram.RestAssuredAPI.VVK001_GET_Request_Weather_API_To_Validate_status_code_And_Status_line" />
 			<class name="vikram.RestAssuredAPI.VVK002_POST_Request_Register_Customer_API" />
-			<class name="vikram.RestAssuredAPI.VVK003_GET_Request_Google_Map_API_To_Validating_Headerst" />
+			<class name="vikram.RestAssuredAPI.VVK003_GET_Request_Google_Map_API_To_Validating_Headers" />
 			<class name="vikram.RestAssuredAPI.VVK004_GET_Request_Google_Map_API_To_Printing_All_Headers" />
 			<class name="vikram.RestAssuredAPI.VVK005_GET_Request_Weather_API_To_Validate_JSON_Response_body" />\
 			<class name="vikram.RestAssuredAPI.VVK006_GET_Request_Weather_API_To_Extract_Values_of_Each_Node" />
 		</classes>
 	</test>
+	
+	<test name="Dryrun_VVK_DataDrivenTesting">
+		<classes>
+			<class name="dataDrivenTesting.DDT_AddNewEmployeeWithHardCodedData" />
+		</classes>
+	</test>
+	
 </suite>
-
 
