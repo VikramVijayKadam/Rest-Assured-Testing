@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="dataDrivenTesting.DDT_AddNewEmployeeWithTwoDimensionalArrayUsingDataProvider">
+      <class name="dataDrivenTesting.DDT_AddNewEmployeeBYReadingTheDataFromXLfile">
         <methods>
-          <include name="postNewEmployees" invocation-numbers="0 1 2"/>
+          <include name="postNewEmployees"/>
         </methods>
-      </class> <!-- dataDrivenTesting.DDT_AddNewEmployeeWithTwoDimensionalArrayUsingDataProvider -->
+      </class> <!-- dataDrivenTesting.DDT_AddNewEmployeeBYReadingTheDataFromXLfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

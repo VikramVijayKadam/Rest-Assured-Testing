@@ -1,4 +1,6 @@
+package UtilsPackage;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -22,7 +24,7 @@ public class XLUtils
 	
 	
 	
-	public static int getRowCount(String xlfile,String xlsheet) throws IOException 
+	public static int getRowCount(String xlfile,String xlsheet) throws IOException, FileNotFoundException
 	{
 		int rowcount;
 		fi=new FileInputStream(xlfile);
@@ -33,7 +35,7 @@ public class XLUtils
 		fi.close();
 		return rowcount;	
 	}
-	public static int getCellCount(String xlfile,String xlsheet,int rownum) throws IOException
+	public static int getCellCount(String xlfile,String xlsheet,int rownum) throws IOException, FileNotFoundException
 	{
 		int cellcount;
 		fi= new FileInputStream(xlfile);
@@ -46,7 +48,7 @@ public class XLUtils
 		return cellcount;
 		
 	}
-	public static String getCellData(String xlfile,String xlsheet,int rownum,int colnum) throws IOException 
+	public static String getCellData(String xlfile,String xlsheet,int rownum,int colnum) throws IOException, FileNotFoundException
 	{
 		String data;
 		fi = new FileInputStream(xlfile);
@@ -65,7 +67,7 @@ public class XLUtils
 		}
 	}
 		
-	public static void setCellData(String xlfile,String xlsheet,int rownum,int colnum,String data) throws IOException
+	public static void setCellData(String xlfile,String xlsheet,int rownum,int colnum,String data) throws IOException, FileNotFoundException
 	{
 		
 		fi = new FileInputStream(xlfile);
@@ -81,7 +83,7 @@ public class XLUtils
 		fo.close();
 			
 	}
-	public static void fillGreenColour(String xlfile,String xlsheet,int rownum,int colnum) throws IOException
+	public static void fillGreenColour(String xlfile,String xlsheet,int rownum,int colnum) throws IOException, FileNotFoundException
 	{
 		fi = new FileInputStream(xlfile);
 		wb = new XSSFWorkbook(fi);
@@ -99,7 +101,7 @@ public class XLUtils
 		fi.close();
 		fo.close();
 	}
-	public static void fillRedColour(String xlfile,String xlsheet,int rownum,int colnum) throws IOException 
+	public static void fillRedColour(String xlfile,String xlsheet,int rownum,int colnum) throws IOException, FileNotFoundException
 	{
 		fi = new FileInputStream(xlfile);
 		wb = new XSSFWorkbook(fi);

@@ -13,6 +13,7 @@
 	<test name="Dryrun_VVK_DataDrivenTesting">
 		<classes>
 			<class name="dataDrivenTesting.DDT_AddNewEmployeeWithHardCodedData" />
+			<class name="dataDrivenTesting.DDT_AddNewEmployeeWithTwoDimensionalArrayUsingDataProvider" />
 		</classes>
 	</test>
 	
