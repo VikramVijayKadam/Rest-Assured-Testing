@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
 import io.restassured.http.Method;
-import io.restassured.path.json.JsonPath;
+
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -39,11 +39,7 @@ public class VVK07_GET_Request_Autherization
 	  System.out.println("Status code is : "+statusCode);
 	  
 	  Assert.assertEquals(statusCode, 200);
-	  
-	  
-	  
-	  
-	  
+	   
 	 }
 
 }

@@ -62,6 +62,12 @@ Validations like:-
 3. Headers (Content-type, Content-length etc.,)
 4. Response time
 
+
+Dummy API link:-
+--------------
+http://dummy.restapiexample.com/
+
+
  */
 /**
  * @author Vikram Vijay Kadam
